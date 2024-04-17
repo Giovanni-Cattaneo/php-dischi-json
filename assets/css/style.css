@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+}
+
+:root {
+    --header-bg-color: #181412;
+    --main-bg-color: #112030;
+    --card-bg-color: #1d2d3c;
+}
+
+header {
+    background-color: var(--header-bg-color);
+    padding: 1rem;
+    height: 110px;
+
+    & img {
+        width: 80px;
+        aspect-ratio: 1;
+        margin-left: 5rem;
+    }
+}
+
+main {
+    background-color: var(--main-bg-color);
+    height: calc(100vh - 110px);
+
+    .card {
+        background-color: var(--card-bg-color);
+        color: white;
+    }
+}
