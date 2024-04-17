@@ -5,7 +5,7 @@ createApp({
         return {
             message: 'Hello Vue!',
             discs: [],
-            api_url: 'disc.json'
+            api_url: 'api.php'
         }
     },
     mounted() {

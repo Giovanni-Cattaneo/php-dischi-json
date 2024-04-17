@@ -1,7 +1,6 @@
 <?php
-include 'api.php';
 
-//var_dump($discs);
+
 
 ?>
 
@@ -29,7 +28,7 @@ include 'api.php';
             <div class="container pt-5">
                 <div class="row">
                     <div class="col-4" v-for="disc in discs">
-                        <div class="card w-75 mb-3">
+                        <div class="card w-75 mb-3" @click="">
                             <img class="card-img-top" :src="disc.poster" alt="Poster" />
                             <div class="card-body">
                                 <h4 class="card-title">{{ disc.title }}</h4>
