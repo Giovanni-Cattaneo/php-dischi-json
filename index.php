@@ -1,10 +1,3 @@
-<?php
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +21,7 @@
             <div class="container pt-5">
                 <div class="row">
                     <div class="col-4" v-for="disc in discs">
-                        <div class="card w-75 mb-3" @click="">
+                        <div class="card w-75 mb-3">
                             <img class="card-img-top" :src="disc.poster" alt="Poster" />
                             <div class="card-body">
                                 <h4 class="card-title">{{ disc.title }}</h4>
