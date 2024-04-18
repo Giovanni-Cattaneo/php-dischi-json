@@ -1,5 +1,9 @@
 <?php
 
+// header('Content-type: database/json');
+
+// echo file_get_contents('disc.json');
+
 $discs = [
     [
         "title" => "New Jersey",
